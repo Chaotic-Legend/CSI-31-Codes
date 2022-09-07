@@ -1,6 +1,6 @@
 # File: chaos.py
-
 # Our thrid function is a simple program illustrating chaotic behavior.
+
 def main():
     print("This program illustrates a chaotic function.")
 x = eval(input("Enter a number between 0 and 1: " ))
