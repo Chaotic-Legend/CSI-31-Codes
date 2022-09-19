@@ -8,10 +8,10 @@ def main():
     n = int(input("Enter a whole number: "))
     
     fact = 1
-    for i in range (n):
+    for i in range(n):
         fact = fact * i
     
     print()
-    print("The factorial of " , n , " i s " , fact)
+    print("The factorial of " , n , " is " , fact)
 
 main ()
