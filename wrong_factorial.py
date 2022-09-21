@@ -14,4 +14,4 @@ def main():
     print()
     print("The factorial of " , n , " is " , fact)
 
-main ()
+main()
