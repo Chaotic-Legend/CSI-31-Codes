@@ -1,4 +1,4 @@
-# File: goodday.py
+# File: good_day.py
 # This is our first time in class doing scripts.
 
 # Our first function
