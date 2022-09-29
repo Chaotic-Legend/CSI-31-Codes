@@ -3,10 +3,20 @@
 
 # Our first function
 def goodday():
-    print("Good day")
+    name = input("What is your name? ")
+    print()
+    print("Good Day,", name)
     print("How are you?")
 
+goodday()
+
+print()
+
 # Our second function
-def goodevening(name):
-    print("Good evening ", name)
-    print("Hey " + name + " How about coffee?")
+def goodevening():
+    name = input("What is your name? ")
+    print()
+    print("Good Evening,", name)
+    print("Hey " + name + ", How about some coffee?")
+
+goodevening()
