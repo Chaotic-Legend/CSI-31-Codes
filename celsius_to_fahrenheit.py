@@ -6,4 +6,4 @@ def main():
     fahrenheit = 9/5 * celsius + 32
     print("The temperautre is", fahrenheit, "degrees Fahrenheit.")
 
-main ()
+main()
