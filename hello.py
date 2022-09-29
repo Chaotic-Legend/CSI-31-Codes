@@ -11,9 +11,8 @@ class Window(Frame):
 
 root = Tk()
 
-
 #app = Window(root)
-w = Label(root , text = "Hello, world!")
+w = Label(root , text = "Hello, World!")
 w.pack()
 
 root.mainloop()
