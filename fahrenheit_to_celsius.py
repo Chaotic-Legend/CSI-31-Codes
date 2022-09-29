@@ -1,5 +1,5 @@
 # File: fahrenheit_to_celsius.py
-# A program to convert Celsius temperature to Fahrenheit.
+# A program to convert Farenheit temperature to Celsius.
 
 def main():
     fahrenheit = eval(input("What is the Fahrenheit temperature?"))
