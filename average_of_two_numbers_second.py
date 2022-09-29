@@ -8,4 +8,4 @@ def main():
     average = (s1 + s2) / 2
     print("The average of your scores is", average)
 
-main ()
+main()
