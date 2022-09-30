@@ -22,7 +22,7 @@ def main():
         root1 = (-b + discRoot) / (2 * a)
         root2 = (-b - discRoot) / (2 * a)
         print()
-        print("The two roots of this quadratic equation are", root1, "and", root2)
+        print("The two real roots of this quadratic equation are", root1, "and", root2)
         print("The evaluation at x =", x, "is", value)
 
 main()
