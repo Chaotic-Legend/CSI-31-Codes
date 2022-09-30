@@ -1,15 +1,16 @@
 # Here is the introduction.
 # File: geometric_seq.py
-# A program to compute the 15-th term of geometric sequence.
+# A program to compute the nth term of geometric sequence.
 
 def main():
-    print("This program calculates the fifteenth term of a geometric sequence.")
-    term = eval(input("Enter the starting term: "))
-    ratio = eval(input("Enter the common ratio: "))
-    for i in range(15):
+    print("This program calculates the nth term of a geometric sequence.")
+    term = float(input("Enter the starting term: "))
+    ratio = float(input("Enter the common ratio: "))
+    nth = eval(input("Enter the nth term: "))
+    for i in range(nth):
         print(term)
         term = term * ratio
 
-    print("The fifteenth term of this geometric sequence is", term)
+    print("The", nth, "term of this geometric sequence is", term)
 
 main()
