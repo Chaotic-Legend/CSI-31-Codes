@@ -6,6 +6,6 @@ def main():
     s1 = float(input("Enter your first score: "))
     s2 = float(input("Enter your second score: "))
     average = (s1 + s2) / 2
-    print("The average of your scores is", average)
+    print("The average of your two scores is", average)
 
 main()
