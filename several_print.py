@@ -1,5 +1,5 @@
 # File: several_print.py
-# A program to illustrate several print statements.
+# This script illustrates several print statements.
 
 def main():
     print("How about", end = " ")
