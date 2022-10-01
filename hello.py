@@ -4,8 +4,8 @@
 from tkinter import *
 def main():
     class Window(Frame):
-        def init(self, master = None):
-            Frame.init(self, master)
+        def __init__(self, master = None):
+            Frame.__init__(self, master)
             self.master = master
     root = Tk()
     # app = Window(root)
