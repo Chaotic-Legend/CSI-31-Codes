@@ -1,6 +1,6 @@
 # Here is the introduction.
 # File: geometric_seq.py
-# A program to compute the nth term of geometric sequence.
+# This script computes the nth term of geometric sequence.
 
 def main():
     print("This program calculates the nth term of a geometric sequence.")
@@ -10,7 +10,6 @@ def main():
     for i in range(nth):
         print(term)
         term = term * ratio
-
     print("The", nth, "term of this geometric sequence is", term)
 
 main()
