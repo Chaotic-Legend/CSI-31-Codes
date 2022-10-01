@@ -1,5 +1,5 @@
 # File: chaos.py
-# Our thrid function is a simple program illustrating chaotic behavior.
+# Our thrid script is a simple program illustrating chaotic behavior.
 
 def main():
     print("This program illustrates a chaotic function.")
