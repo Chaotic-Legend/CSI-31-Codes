@@ -1,7 +1,7 @@
 # Here is the introduction.
 # File: quadratic.py
 # This script computes the real roots of a quadratic equation, evaluates the quadratic equation, and also illustrates the use of the math library.
-# Note: This program will tell if there is no real root for the quadratic equation.
+# Note: This program will also tell if there are no real roots for the quadratic equation.
 
 import math # This module makes the math library available to use.
 
