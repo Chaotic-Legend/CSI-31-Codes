@@ -1,6 +1,6 @@
 # Here is the introduction.
 # File: factorial.py
-# A program to calculate the factorial of a whole number.
+# This script calculates the factorial of a whole number.
     
 def main():
     print("Correct Factorial")
