@@ -1,6 +1,6 @@
 # Here is the introduction.
 # File: wrong_factorial.py
-# An incorrect program to calculate the factorial of a whole number.
+# This is an incorrect script to calculate the factorial of a whole number.
 
 def main():
     print("Incorrect Factorial")
