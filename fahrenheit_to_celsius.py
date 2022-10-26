@@ -4,6 +4,6 @@
 def main():
     fahrenheit = float(input("What is the Fahrenheit temperature? "))
     celsius = (5 * (fahrenheit - 32) / 9)
-    print("\nThe temperautre is", round(celsius, 4), "degrees Celsius.")
+    print("\nThe temperature is", round(celsius, 4), "degrees Celsius.")
 
 main()
