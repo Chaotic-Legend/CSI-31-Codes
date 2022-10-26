@@ -1,9 +1,9 @@
 # File: fahrenheit_to_celsius.py
-# This script converts Farenheit temperature to Celsius.
+# This program converts Farenheit temperature to Celsius.
 
 def main():
-    fahrenheit = eval(input("What is the Fahrenheit temperature?"))
-    celsius = 5 * (fahrenheit - 32) / 9
-    print("The temperautre is", celsius, "degrees Celsius.")
+    fahrenheit = eval(input("What is the Fahrenheit temperature? "))
+    celsius = (5 * (fahrenheit - 32) / 9)
+    print("\nThe temperautre is", round(celsius, 4), "degrees Celsius.")
 
 main()
