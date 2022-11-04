@@ -1,9 +1,9 @@
 # Here is the introduction.
 # File: arithmetic_seq.py
-# This script computes the nth term of an arithmetic sequence.
+# This program computes the nth term of an arithmetic sequence.
 
 def main():
-    print("This program calculates the nth term of an arithmetic sequence.")
+    print("This program calculates the nth term of an arithmetic sequence.\n")
     term = float(input("Enter the starting term: "))
     difference = float(input("Enter the common difference: "))
     nth = eval(input("Enter the nth term: "))
