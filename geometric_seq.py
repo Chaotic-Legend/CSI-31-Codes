@@ -1,9 +1,9 @@
 # Here is the introduction.
 # File: geometric_seq.py
-# This script computes the nth term of a geometric sequence.
+# This program computes the nth term of a geometric sequence.
 
 def main():
-    print("This program calculates the nth term of a geometric sequence.")
+    print("This program calculates the nth term of a geometric sequence.\n")
     term = float(input("Enter the starting term: "))
     ratio = float(input("Enter the common ratio: "))
     nth = eval(input("Enter the nth term: "))
