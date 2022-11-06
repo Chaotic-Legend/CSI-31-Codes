@@ -6,6 +6,6 @@ def main():
     L = list(title)
     L.reverse()
     backTitle = "".join(L)
-    print("The string in reverse order can be obtained by doing:", backTitle)
+    print("\nThe string in reverse order can be obtained by doing:", backTitle)
 
 main()
