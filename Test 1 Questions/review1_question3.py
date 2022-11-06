@@ -1,15 +1,14 @@
 # Isaac D. Hoyos
 # Review For Test 1: Question 3
 
-def main():
-    for x in range (-4, 2):
+def points():
+    for x in range(-4, 2):
         for y in range(-5, 1):
             if y <= x:
-                print((x, y), end = " ")
+                print((x, y), end = "\n")
 
-main()
+points()
 
-print()
 print()
 
 def main():
