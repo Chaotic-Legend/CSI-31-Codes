@@ -1,17 +1,17 @@
 # Isaac D. Hoyos
 # Review For Test 1: Question 4
 
-def main():
+def equation():
     m = float(input("Please enter a numeric value for the slope of the line: "))
     b = float(input("Please enter a numeric value for the y-intercept: "))
     print("The equation of this line is y =", m, "x +", b)
 
-main()
+equation()
 
 print()
 
 # This script asks the user for the value of the x and y coordinate at two different points and then returns the value for the slope of the line.
-def main():
+def slope():
     x1, y1 = eval(input("Please enter the value of the x and y coordinate for the first point separated by a comma: "))
     x2, y2 = eval(input("Please enter the valus of the x and y coordinate for the second point separated by a comma: "))
     if x2 != x1:
@@ -20,7 +20,7 @@ def main():
     else:
         print("This line is vertical with the equation x =", x1)
 
-main()
+slope()
 
 print()
 
